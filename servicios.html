@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios | Nubank Style</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* ====== Estilos generales ====== */
+    body {
+      background-color: #f9f7fa;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ====== Navbar ====== */
+    .navbar {
+      background-color: #8A05BE;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      color: #fff !important;
+    }
+
+    .navbar-nav .nav-link {
+      color: #f1e7f9 !important;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #fff !important;
+    }
+
+    /* ====== Sección Servicios ====== */
+    #servicios {
+      padding: 80px 0;
+    }
+
+    #servicios h2 {
+      color: #5b007d;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #servicios p.subtitle {
+      text-align: center;
+      color: #6a5c7a;
+      margin-bottom: 50px;
+    }
+
+    .service-card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(138, 5, 190, 0.1);
+      padding: 40px 25px;
+      transition: all 0.3s ease;
+      text-align: center;
+      border: 2px solid transparent;
+      height: 100%;
+    }
+
+    .service-card:hover {
+      border-color: #8A05BE;
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(138, 5, 190, 0.2);
+    }
+
+    .service-icon {
+      font-size: 40px;
+      color: #8A05BE;
+      margin-bottom: 15px;
+    }
+
+    .service-title {
+      font-weight: 600;
+      color: #4b006e;
+      margin-bottom: 10px;
+    }
+
+    .service-text {
+      color: #6a5c7a;
+      font-size: 15px;
+    }
+
+    /* ====== Footer ====== */
+    footer {
+      background-color: #5b007d;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #d1b3e7;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+   <div class="container">
+                <a class="navbar-brand fw-bold text-primary d-flex align-items-center" href="index.html">
+            <img src="IMG/logo" alt="Logo Foodog" width="40" height="40">
+        </a>
+      <a class="navbar-brand" href="#">Vegetta777</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link active" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== SECCIÓN SERVICIOS ====== -->
+  <section id="servicios" class="container">
+    <h2>Servicios</h2>
+    <p class="subtitle">Soluciones integrales para tu negocio digital.</p>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-laptop"></i></div>
+          <h5 class="service-title">Desarrollo Web</h5>
+          <p class="service-text">Sitios modernos, rápidos y adaptados a tus necesidades.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-phone"></i></div>
+          <h5 class="service-title">Apps Móviles</h5>
+          <p class="service-text">Aplicaciones híbridas y nativas para todas las plataformas.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-bar-chart"></i></div>
+          <h5 class="service-title">Estrategia Digital</h5>
+          <p class="service-text">SEO, analítica y posicionamiento para hacer crecer tu marca.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <p>© 2025 Sebastian Borda
+      <a href="contacto.html">Contacto</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
